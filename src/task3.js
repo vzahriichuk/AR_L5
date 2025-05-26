@@ -167,11 +167,6 @@ function onSelect() {
 
     cones.push(cone);
     scene.add(cone);
-
-    // Відтворюємо звук при розміщенні
-    const placeSound = document.getElementById("placeSound");
-    placeSound.currentTime = 0;
-    placeSound.play();
   }
 }
 
