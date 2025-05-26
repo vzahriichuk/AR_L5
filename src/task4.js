@@ -176,7 +176,7 @@ function onSelect() {
 
     const loader = new GLTFLoader();
     loader.load(
-      "https://me-test-models.s3.us-east-1.amazonaws.com/guitar/scene.gltf",
+      "https://me-test-models.s3.us-east-1.amazonaws.com/dragon/scene.gltf",
       (gltf) => {
         const model = gltf.scene;
 
